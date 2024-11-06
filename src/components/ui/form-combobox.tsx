@@ -101,7 +101,9 @@ const FormCombobox: FC<FormComboboxProps> = ({
 												key={item.value}
 												onSelect={() => {
 													form.setValue(name, item.value)
+													setOpen(false)
 												}}
+												className='cursor-pointer'
 											>
 												<Check
 													className={cn(
