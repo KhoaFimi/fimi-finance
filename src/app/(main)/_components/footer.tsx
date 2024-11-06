@@ -1,4 +1,4 @@
-import { Clock, Home, Mail, MapPin, Phone } from 'lucide-react'
+import { Clock, Mail, MapPin, Phone } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -19,16 +19,6 @@ const Footer = () => {
 							Công Ty TNHH Công Nghệ FIMI
 						</h3>
 						<div className='flex flex-col items-start gap-4'>
-							{/* address 1 */}
-							<div className='flex items-center gap-x-2'>
-								<div className='rounded-full bg-background p-1'>
-									<Home className='size-4 text-primary' />
-								</div>
-								<p className='text-xs font-semibold text-white'>
-									Hội sở: Tầng 72, Landmark 81, Vinhomes Central Park, 720A Điện
-									Biên Phủ, P.22, Q.Bình Thạnh, TP.HCM.
-								</p>
-							</div>
 							{/* address 2 */}
 							<div className='flex items-center gap-x-2'>
 								<div className='rounded-full bg-background p-1'>
