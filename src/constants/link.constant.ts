@@ -33,7 +33,7 @@ export const cardLink = (code: string, type: string) => {
 			link = `https://www.vib.com.vn/vn/the-tin-dung/dang-ky/buoc-1?card_type=vib-family-link&utm_source=REFERCARD&utm_medium=REFER_CARD&utm_content=Affiliate_FIMIVIB-${code}`
 			break
 		case 'vibfin':
-			link = `https://wwww.vib.com.vn/vn/the-tin-dung/dang-ky/buoc-1?card_type=vib-financial-free&utm_source=REFERCARD&utm_medium=REFER_CARD&utm_content=Affiliate_FIMIVIB-${code}`
+			link = `https://www.vib.com.vn/vn/the-tin-dung/dang-ky/buoc-1?card_type=vib-financial-free&utm_source=REFERCARD&utm_medium=REFER_CARD&utm_content=Affiliate_FIMIVIB-${code}`
 			break
 		case 'viblaz':
 			link = `https://www.vib.com.vn/vn/the-tin-dung/dang-ky/buoc-1?card_type=vib-lazcard&utm_source=REFERCARD&utm_medium=REFER_CARD&utm_content=Affiliate_FIMIVIB-${code}`
